@@ -27,6 +27,25 @@
             height: 100vh;
             overflow-y: auto;
         }
+        .modal-header {
+            position: sticky;
+            top: 0;
+            background: #009688; /* Cor de fundo da header */
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .modal-header .close {
+            font-size: 24px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -197,15 +216,15 @@
 
             <!-- Fim do conteúdo da página -->
         </div>
+        
 
         <!-- Modal para Projetos -->
         <div id="project-modal" class="w3-modal" onclick="this.style.display='none'">
             <div class="w3-modal-content w3-animate-top w3-card-4" onclick="event.stopPropagation();">
-                <header class="w3-container w3-teal">
-                    <span onclick="document.getElementById('project-modal').style.display='none'"
-                        class="w3-button w3-display-topright">&times;</span>
-                    
-                </header>
+                <div class="modal-header">
+                    <h2 id="project-title">Título do Projeto</h2>
+                    <span class="close" onclick="document.getElementById('project-modal').style.display='none'">&times;</span>
+                </div>
                 <div class="w3-container" id="project-content">
                     <p>Conteúdo do Projeto</p>
                 </div>
@@ -225,11 +244,24 @@
             }
 
             // Função para carregar páginas de projetos
-            function loadProject(page) {
+            /*function loadProject(page) {
                 fetch(page)
                     .then(response => response.text())
                     .then(data => {
                         document.getElementById('project-content').innerHTML = data;
+                        document.getElementById('project-modal').style.display = 'block';
+                    })
+                    .catch(error => console.log('Error:', error));
+            }*/
+            function loadProject(page) {
+                fetch(page)
+                    .then(response => response.text())
+                    .then(data => {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(data, 'text/html');
+                        const title = doc.querySelector('title').innerText;
+                        document.getElementById('project-title').innerText = title;
+                        document.getElementById('project-content').innerHTML = doc.body.innerHTML;
                         document.getElementById('project-modal').style.display = 'block';
                     })
                     .catch(error => console.log('Error:', error));
