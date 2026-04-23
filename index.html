@@ -1,276 +1,290 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "Raleway", sans-serif
-        }
-
-        .portfolio-item {
-            cursor: pointer;
-        }
-
-        .w3-modal-content {
-            height: 100vh;
-            overflow-y: auto;
-        }
-        .modal-header {
-            position: sticky;
-            top: 0;
-            background: #009688; /* Cor de fundo da header */
-            z-index: 10;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-        }
-
-        .modal-header h2 {
-            margin: 0;
-        }
-
-        .modal-header .close {
-            font-size: 24px;
-            cursor: pointer;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tatiana Kaori Abe | Product Owner</title>
+  <meta
+    name="description"
+    content="Portfólio profissional de Tatiana Kaori Abe, Product Owner com experiência em discovery, delivery e evolução de produtos digitais."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <span class="brand-mark">TKA</span>
+        <span class="brand-copy">
+          <strong>Tatiana Kaori Abe</strong>
+          <span>Product Owner Sênior</span>
+        </span>
+      </a>
 
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span></span>
+        <span></span>
+      </button>
 
-    <!-- Barra Lateral/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-        <div class="w3-container">
-            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
-                title="fechar menu">
-                <i class="fa fa-remove"></i>
+      <nav class="menu" id="site-menu" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#competencias">Competências</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+        <a
+          class="button button-secondary"
+          href="https://drive.google.com/file/d/1oA0Wtboy0P3Q9M4tAa0neOY3qtcpt3hv/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >Currículo</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Product Owner Sênior | Estratégia, Operação e Entrega de Valor</p>
+          <h1>Conecto negócio, usuário e tecnologia para direcionar produtos com clareza e execução consistente.</h1>
+          <p class="hero-text">
+            Product Owner Sênior com perfil estratégico e operacional, capaz de definir visão de produto, priorizar
+            oportunidades e conduzir entregas de valor com squads multidisciplinares em contextos de negócio
+            complexos.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button" href="#projetos">Ver projetos</a>
+            <a class="button button-ghost" href="mailto:tkaoriabe@gmail.com">Falar comigo</a>
+          </div>
+
+          <ul class="hero-highlights" aria-label="Principais áreas de atuação">
+            <li>Visão de produto e roadmap</li>
+            <li>Discovery, MVP e priorização</li>
+            <li>User stories e critérios de aceite</li>
+            <li>Stakeholders, métricas e operação</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="profile-card">
+            <img src="assets/kaori2.jpeg" alt="Foto de Tatiana Kaori Abe">
+            <div class="profile-content">
+              <p class="profile-role">Product Owner Sênior</p>
+              <h2>Tatiana Kaori Abe</h2>
+              <p>
+                Experiência em contextos B2B e B2C, com atuação em discovery, backlog, métricas, operação,
+                comunicação executiva e alinhamento entre negócio, UX/UI e tecnologia.
+              </p>
+            </div>
+          </div>
+
+          <div class="stat-grid" aria-label="Resumo de atuação">
+            <article class="stat-card">
+              <strong>Discovery ao delivery</strong>
+              <span>atuação ponta a ponta no ciclo de produto</span>
+            </article>
+            <article class="stat-card">
+              <strong>B2B e B2C</strong>
+              <span>experiência em diferentes contextos e jornadas</span>
+            </article>
+            <article class="stat-card">
+              <strong>Métricas e operação</strong>
+              <span>visão analítica para decisão, monitoramento e evolução</span>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="eyebrow">Sobre</p>
+            <p>
+              Sou Product Owner Sênior com experiência em definição de visão de produto, construção de roadmap
+              estratégico, gestão e priorização de backlog, discovery, escrita de user stories e critérios de aceite,
+              além da condução de squads multidisciplinares em ambientes ágeis.
+            </p>
+            <p>
+              Atuo de forma integrada com stakeholders, UX/UI e tecnologia para transformar necessidades de negócio em
+              soluções digitais com foco em valor para o usuário, qualidade de entrega e alinhamento estratégico.
+            </p>
+            <p>
+              Tenho experiência em contextos B2B e B2C, com atuação em negociação entre áreas, acompanhamento de
+              métricas de produto e operação, definição e validação de MVPs, gestão de dependências, remoção de
+              impedimentos e comunicação executiva com clientes e lideranças.
+            </p>
+            <p>
+              Também trago uma base consistente em indicadores, dashboards, processos e melhoria contínua, o que
+              fortalece minha visão analítica, minha capacidade de gestão e minha atuação em cenários complexos.
+            </p>
+          </div>
+
+          <div class="quote-card">
+            <p>
+              "Transformo estratégia, contexto operacional e necessidades do usuário em decisões de produto mais
+              claras, priorizadas e conectadas ao valor do negócio."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="competencias">
+        <div class="section-heading">
+          <p class="eyebrow">Competências</p>
+          <p class="section-note section-note-wide">
+            Minha atuação combina visão estratégica, organização da execução, coordenação entre áreas e leitura de
+            indicadores para sustentar produtos mais consistentes e alinhados ao negócio.
+          </p>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability-card">
+            <h3>Estratégia e direção de produto</h3>
+            <ul>
+              <li>Definição de visão de produto</li>
+              <li>Construção de roadmap</li>
+              <li>Definição e acompanhamento de MVP</li>
+            </ul>
+          </article>
+          <article class="capability-card">
+            <h3>Discovery e definição funcional</h3>
+            <ul>
+              <li>Product discovery</li>
+              <li>Documentação funcional e requisitos</li>
+              <li>Validação de problemas, hipóteses e caminhos de solução</li>
+            </ul>
+          </article>
+          <article class="capability-card">
+            <h3>Backlog e especificação</h3>
+            <ul>
+              <li>Gestão e priorização de backlog</li>
+              <li>Escrita de user stories e critérios de aceite</li>
+              <li>Refinamento orientado à entrega com clareza</li>
+            </ul>
+          </article>
+          <article class="capability-card">
+            <h3>Entrega com times ágeis</h3>
+            <ul>
+              <li>Condução de cerimônias ágeis</li>
+              <li>Atuação com times multidisciplinares</li>
+              <li>Gestão de dependências e impedimentos</li>
+            </ul>
+          </article>
+          <article class="capability-card">
+            <h3>Stakeholders e comunicação</h3>
+            <ul>
+              <li>Gestão de stakeholders</li>
+              <li>Comunicação executiva e status report</li>
+              <li>Negociação entre áreas e alinhamento estratégico</li>
+            </ul>
+          </article>
+          <article class="capability-card">
+            <h3>Métricas, operação e melhoria</h3>
+            <ul>
+              <li>Métricas de produto e operação</li>
+              <li>Dashboards e indicadores</li>
+              <li>Leitura analítica para melhoria contínua</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="tools-panel">
+          <p class="tools-title">Métodos e ferramentas</p>
+          <div class="tag-list" aria-label="Ferramentas e métodos de trabalho">
+            <span class="tag">Scrum</span>
+            <span class="tag">Kanban</span>
+            <span class="tag">Azure DevOps</span>
+            <span class="tag">Jira</span>
+            <span class="tag">Trello</span>
+            <span class="tag">Miro</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projetos">
+        <div class="section-heading section-heading-inline">
+          <div>
+            <p class="eyebrow">Projetos</p>
+            <h2>Cases com foco em contexto, decisão e impacto.</h2>
+          </div>
+          <p class="section-note">Selecione um projeto para ver contexto, responsabilidades, desafios e resultados.</p>
+        </div>
+
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contato</p>
+            <h2>Vamos conversar sobre produto, estratégia e construção de soluções digitais.</h2>
+            <p>
+              Se você procura alguém para atuar na evolução de produtos, discovery, backlog e alinhamento entre negócio
+              e tecnologia, fico à disposição para conversar.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="contact-link" href="mailto:tkaoriabe@gmail.com">
+              <span>Email</span>
+              <strong>tkaoriabe@gmail.com</strong>
             </a>
-            <img src="/assets/kaori2.jpeg" style="width:50%;" class="w3-round"><br><br>
-            <h4><b>PORTFÓLIO</b></h4>
-        </div>
-        <div class="w3-bar-block">
-            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
-                    class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFÓLIO</a>
-            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-user fa-fw w3-margin-right"></i>SOBRE</a>
-            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
-
-                    <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom w3-margin-left">
-                        <a href="https://drive.google.com/file/d/1oA0Wtboy0P3Q9M4tAa0neOY3qtcpt3hv/view?usp=sharing" target="_blank"><i class="fa fa-download w3-margin-right"></i>Baixar Currículo</a>
-                    </button>
-        </div>
-        <div class="w3-panel w3-large">
-            <a href="https://www.linkedin.com/in/tatianaabe/">
-                <img src="assets/imagens/linkedin.png" alt="" style="width: 25%;">
+            <a class="contact-link" href="https://www.linkedin.com/in/tatianaabe/" target="_blank" rel="noreferrer">
+              <span>LinkedIn</span>
+              <strong>linkedin.com/in/tatianaabe</strong>
             </a>
-            
+            <div class="contact-link">
+              <span>Localização</span>
+              <strong>Marília, São Paulo, Brasil</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog">
+      <button class="modal-close" type="button" aria-label="Fechar detalhes do projeto" data-close-modal>×</button>
+      <div class="modal-media">
+        <img id="modal-image" src="" alt="">
+      </div>
+      <div class="modal-body">
+        <p class="eyebrow" id="modal-category"></p>
+        <h2 id="modal-title"></h2>
+        <p class="modal-summary" id="modal-summary"></p>
+
+        <div class="detail-grid">
+          <article class="detail-card">
+            <h3>Contexto</h3>
+            <p id="modal-context"></p>
+          </article>
+          <article class="detail-card">
+            <h3>Meu papel</h3>
+            <ul id="modal-role"></ul>
+          </article>
+          <article class="detail-card">
+            <h3>Desafios</h3>
+            <ul id="modal-challenges"></ul>
+          </article>
+          <article class="detail-card">
+            <h3>Resultados</h3>
+            <p id="modal-results"></p>
+          </article>
         </div>
 
-    </nav>
+        <div class="tag-list" id="modal-tags" aria-label="Temas do projeto"></div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Efeito de sobreposição ao abrir barra lateral em telas pequenas -->
-    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
-        title="fechar menu lateral" id="myOverlay"></div>
-
-    <!-- !CONTEÚDO DA PÁGINA! -->
-    <div class="w3-main" style="margin-left:300px">
-
-        <!-- Cabeçalho -->
-        <header id="portfolio">
-            <a href="#"><img src="/assets/kaori2.jpeg" style="width:65px;"
-                    class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
-                    class="fa fa-bars"></i></span>
-            <div class="w3-container">
-                <br>
-                <h1><b>Meu Portfólio</b></h1>
-                <div class="w3-section w3-bottombar w3-padding-12"></div>
-            </div>
-        </header>
-
-        <!-- Primeira Grade de Fotos -->
-        <div class="w3-row-padding">
-            <div class="w3-third w3-container w3-margin-bottom portfolio-item" onclick="loadProject('projeto1.html')">
-                <img src="/assets/imagens/projeto/projeto1.jpg" alt="TikTok" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>TikTok Business</b></p>
-                </div>
-            </div>
-            <div class="w3-third w3-container w3-margin-bottom portfolio-item" onclick="loadProject('projeto2.html')">
-                <img src="/assets/imagens/projeto/projeto2.jpg" alt="Integração Bancária" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Integração Bancária e Empresa de Benefícios (Discovery) </b></p>
-                </div>
-            </div>
-            <div class="w3-third w3-container portfolio-item" onclick="loadProject('projeto3.html')">
-                <img src="/assets/imagens/projeto/projeto3.jpg" alt="Natureza" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Aplicativo Mobile para Empresa de Benefícios (Discovery)</b></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Segunda Grade de Fotos -->
-        <div class="w3-row-padding">
-            <div class="w3-third w3-container w3-margin-bottom portfolio-item" onclick="loadProject('projeto4.html')">
-                <img src="/assets/imagens/projeto/projeto4.jpg" alt="Projeto 1" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Plataforma de Relacionamento Político e Social</b></p>
-                </div>
-            </div>
-            <div class="w3-third w3-container w3-margin-bottom portfolio-item" onclick="loadProject('projeto5.html')">
-                <img src="/assets/imagens/projeto/projeto5.jpg" alt="Projeto 2" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Aplicativo Mobile de Gestão Logística (PortOX Mobile) </b></p>
-                </div>
-            </div>
-            <div class="w3-third w3-container portfolio-item" onclick="loadProject('projeto6.html')">
-                <img src="/assets/imagens/projeto/projeto6.jpg" alt="Projeto 3" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Aplicativo de Gestão de Eventos para ONG (Amigos do Bem)</b></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Teceira Grade de Fotos -->
-        <div class="w3-row-padding">
-            <div class="w3-third w3-container portfolio-item" onclick="loadProject('projeto7.html')">
-                <img src="/assets/imagens/projeto/projeto7.jpg" alt="Projeto 3" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Aplicativo Mobile de Gestão de Visitação Médica e Farmacêutica</b></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-            <h4><b>Sobre Mim</b></h4>
-            <p>
-                Sou Product Owner com foco em tecnologia, inovação e criação de produtos digitais que resolvem problemas reais. Atuo na definição de visão e estratégia de produto, priorização de backlog e condução de times multidisciplinares, sempre buscando maximizar o valor entregue para o negócio e para o usuário. Gosto de estar perto do problema, entender as dores dos usuários e trabalhar junto com o time para transformar ideias em soluções que funcionam de verdade.            
-            </p>
-            <p>
-                Ao longo da minha trajetória, já trabalhei em projetos bem diferentes entre si, de integrações bancárias e plataformas corporativas a aplicativos nas áreas de logística, eventos e saúde. Essa diversidade me ensinou a adaptar rápido, ouvir muito e pensar sempre no que realmente gera valor, tanto para o negócio quanto para quem usa o produto.            
-            </p>
-            <p>
-                No dia a dia, atuo conectando pessoas, tecnologia e objetivos. Gosto de ajudar o time a ter clareza de propósito, priorizar bem e entregar de forma contínua, usando práticas ágeis como Scrum e Kanban, mas sem perder o lado humano do trabalho em equipe.
-            </p>
-            <p>
-                Acredito que bons produtos nascem de boas conversas, curiosidade, colaboração e vontade de aprender sempre.
-            </p>
-            <p style="font-weight: bold;">
-                Se você está procurando alguém para bater um papo sobre projetos de produtos digitais, estou à disposição para conversarmos.
-            </p>    
-            <hr>
-
-            
-            <p>
-                <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
-                    <a href="https://drive.google.com/file/d/1oA0Wtboy0P3Q9M4tAa0neOY3qtcpt3hv/view?usp=sharing" target="_blank"><i class="fa fa-download w3-margin-right"></i>Baixar Currículo</a>
-                </button>
-            </p>
-            <hr>
-
-            <!-- Seção de Contato -->
-            <div class="w3-container w3-padding-large w3-grey">
-                <h4 id="contact"><b>Contate-me</b></h4>
-                <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-                    <div class="w3-half w3-dark-grey">
-                        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-                        <p><a href="mailto:tkaoriabe@gmail.com">tkaoriabe@gmail.com</a></p>
-                    </div>
-                    <div class="w3-half w3-teal">
-                        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
-                        <p>Marília, São Paulo, BR</p>
-                    </div>
-                </div>
-                <hr class="w3-opacity">
-            </div>
-
-            <!-- Rodapé -->
-            <footer class="w3-container w3-padding-32 w3-dark-grey">
-                <div class="w3-row-padding">
-                    <div class="w3-terço">
-                        <p>Transformando ideias em realidade, uma sprint de cada vez.</p>
-                        
-                    </div>
-                    
-                
-                
-                </div>
-            </footer>
-
-            <div class="w3-black w3-center w3-padding-24">Powered by <a
-                    href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
-                    class="w3-hover-opacity">w3.css</a> build by <a href="https://farinha.dev">FarinhaDev</a>
-            </div>
-
-            <!-- Fim do conteúdo da página -->
-        </div>
-        
-
-        <!-- Modal para Projetos -->
-        <div id="project-modal" class="w3-modal" onclick="this.style.display='none'">
-            <div class="w3-modal-content w3-animate-top w3-card-4" onclick="event.stopPropagation();">
-                <div class="modal-header">
-                    <h2 id="project-title">Título do Projeto</h2>
-                    <span class="close" onclick="document.getElementById('project-modal').style.display='none'">&times;</span>
-                </div>
-                <div class="w3-container" id="project-content">
-                    <p>Conteúdo do Projeto</p>
-                </div>
-            </div>
-        </div>
-
-        <script>
-            // Script para abrir e fechar a barra lateral
-            function w3_open() {
-                document.getElementById("mySidebar").style.display = "block";
-                document.getElementById("myOverlay").style.display = "block";
-            }
-
-            function w3_close() {
-                document.getElementById("mySidebar").style.display = "none";
-                document.getElementById("myOverlay").style.display = "none";
-            }
-
-            // Função para carregar páginas de projetos
-            /*function loadProject(page) {
-                fetch(page)
-                    .then(response => response.text())
-                    .then(data => {
-                        document.getElementById('project-content').innerHTML = data;
-                        document.getElementById('project-modal').style.display = 'block';
-                    })
-                    .catch(error => console.log('Error:', error));
-            }*/
-            function loadProject(page) {
-                fetch(page)
-                    .then(response => response.text())
-                    .then(data => {
-                        const parser = new DOMParser();
-                        const doc = parser.parseFromString(data, 'text/html');
-                        const title = doc.querySelector('title').innerText;
-                        document.getElementById('project-title').innerText = title;
-                        document.getElementById('project-content').innerHTML = doc.body.innerHTML;
-                        document.getElementById('project-modal').style.display = 'block';
-                    })
-                    .catch(error => console.log('Error:', error));
-            }
-        </script>
-
+  <script src="assets/data.js"></script>
+  <script src="assets/script.js"></script>
 </body>
-
 </html>
