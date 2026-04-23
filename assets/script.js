@@ -81,8 +81,12 @@ function renderProjects() {
 
     article.innerHTML = `
       <div class="project-cover">
-        <img src="${project.image}" alt="${project.title}">
-        <span class="project-badge">${project.category}</span>
+        <div class="project-cover-top">
+          <span class="project-badge">${project.category}</span>
+        </div>
+        <div class="project-cover-bottom">
+          <span class="project-divider" aria-hidden="true"></span>
+        </div>
       </div>
       <div class="project-content">
         <h3>${project.title}</h3>
@@ -98,13 +102,13 @@ function renderProjects() {
           </div>
         </div>
         <div class="project-footer">
-          <div class="tag-list"></div>
+          <div class="tag-list project-tag-row"></div>
           <button class="project-link" type="button" data-project-id="${project.id}">Ver detalhes</button>
         </div>
       </div>
     `;
 
-    const tagList = article.querySelector(".tag-list");
+    const tagList = article.querySelector(".project-tag-row");
     tags.forEach((tag) => tagList.appendChild(tag));
     fragment.appendChild(article);
   });

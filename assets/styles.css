@@ -381,6 +381,11 @@ select {
   margin-top: 14px;
 }
 
+.section-note-single-line {
+  max-width: none;
+  white-space: nowrap;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr);
@@ -472,9 +477,13 @@ select {
 
 .project-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   overflow: hidden;
   padding: 0;
   border-radius: var(--radius-xl);
@@ -489,19 +498,20 @@ select {
 
 .project-cover {
   position: relative;
-  overflow: hidden;
-}
-
-.project-cover img {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 104px;
+  padding: 16px 24px;
+  background:
+    radial-gradient(circle at top right, rgba(188, 95, 60, 0.18), transparent 34%),
+    linear-gradient(135deg, rgba(16, 33, 35, 0.96), rgba(39, 57, 60, 0.88));
 }
 
 .project-badge {
-  position: absolute;
-  top: 18px;
-  left: 18px;
+  display: inline-flex;
+  align-self: flex-start;
   padding: 9px 12px;
   border-radius: 999px;
   background: rgba(255, 248, 241, 0.9);
@@ -510,7 +520,27 @@ select {
   font-weight: 800;
 }
 
+.project-cover-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-cover-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.project-divider {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.06));
+}
+
 .project-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 24px;
 }
 
@@ -526,6 +556,7 @@ select {
   display: grid;
   gap: 12px;
   margin: 0 0 18px;
+  flex: 1;
 }
 
 .project-meta div {
@@ -551,10 +582,25 @@ select {
 }
 
 .project-footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 16px;
+  margin-top: auto;
+}
+
+.project-tag-row {
+  min-width: 0;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.project-tag-row .tag {
+  flex: 0 1 auto;
+  min-width: 0;
+  padding: 8px 12px;
+  white-space: nowrap;
+  font-size: 0.84rem;
 }
 
 .project-link {
@@ -781,6 +827,15 @@ select {
   .project-footer {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .project-footer {
+    display: flex;
+  }
+
+  .project-tag-row {
+    flex-wrap: wrap;
+    overflow: visible;
   }
 
   .button,
