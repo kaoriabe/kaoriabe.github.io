@@ -552,35 +552,6 @@ select {
   margin: 10px 0 18px;
 }
 
-.project-meta {
-  display: grid;
-  gap: 12px;
-  margin: 0 0 18px;
-  flex: 1;
-}
-
-.project-meta div {
-  padding: 14px 16px;
-  border-radius: var(--radius-md);
-  background: rgba(16, 33, 35, 0.04);
-}
-
-.project-meta span {
-  display: block;
-  margin-bottom: 6px;
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.project-meta p {
-  margin: 0;
-  color: var(--heading);
-  line-height: 1.6;
-}
-
 .project-footer {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -703,12 +674,6 @@ select {
   font-size: 1.8rem;
   line-height: 1;
   cursor: pointer;
-}
-
-.modal-media img {
-  width: 100%;
-  aspect-ratio: 16 / 7;
-  object-fit: cover;
 }
 
 .modal-body {
@@ -851,7 +816,4 @@ select {
     border-radius: 22px;
   }
 
-  .modal-media img {
-    aspect-ratio: 16 / 10;
-  }
 }

@@ -1,25 +1,19 @@
 window.portfolioProjects = [
   {
     id: "tiktok-business",
-    title: "TikTok Business",
+    title: "Integração com TikTok Business",
     category: "Lançamento e integração",
     image: "assets/imagens/projeto/projeto1.jpg",
     summary:
-      "Integração pioneira com o TikTok Ads Manager para permitir que marcas anunciassem seus produtos com mais eficiência e automação.",
+      "Nova integração para conectar lojistas de uma plataforma de e-commerce ao TikTok Business, ampliando presença digital e oportunidades comerciais em um canal estratégico.",
     context:
-      "No lançamento do TikTok Business em 2022, uma plataforma de e-commerce participou como uma das pioneiras no Brasil. O desafio era viabilizar a integração entre lojas, catálogo de produtos e campanhas no TikTok com consistência operacional.",
+      "Em 2022, uma plataforma de e-commerce participou como uma das pioneiras no Brasil no lançamento do TikTok Business. Nesse cenário, surgiu a oportunidade de disponibilizar uma nova integração para os lojistas da plataforma, conectando suas operações a um canal digital em expansão e com alto potencial para campanhas e divulgação de produtos.",
     impact:
-      "A plataforma conseguiu participar do lançamento global do TikTok Business e disponibilizar a integração para seus clientes, ampliando alcance e performance nas campanhas.",
-    role: [
-      "Estruturei e priorizei o backlog do produto.",
-      "Levantei os requisitos necessários para a integração.",
-      "Descrevi demandas em histórias de usuário claras para o time.",
-      "Acompanhei o desenvolvimento junto à equipe."
-    ],
-    challenges: [
-      "A comunicação com o time de suporte do TikTok exigiu adaptação por causa das barreiras de idioma e contexto.",
-      "Foi meu primeiro projeto oficial como Product Owner, o que trouxe uma curva de aprendizagem relevante."
-    ],
+      "A integração foi entregue a tempo para o lançamento global do TikTok Business, juntamente com uma landing page funcional para apoio aos clientes. Com isso, a plataforma conseguiu disponibilizar uma nova oportunidade comercial para os lojistas, ampliando as possibilidades de alcance e performance de campanhas em um canal estratégico.",
+    role:
+      "Atuei na estruturação e priorização do backlog, no levantamento dos requisitos necessários para a integração e no detalhamento das demandas em user stories claras para o time de desenvolvimento. Também acompanhei a evolução das entregas, apoiei na remoção de impedimentos e contribuí para o alinhamento entre necessidade de negócio, escopo funcional e execução técnica.",
+    challenges:
+      "O principal desafio era viabilizar a integração dentro de um prazo bastante restrito, já que a solução precisava estar pronta para o lançamento global do TikTok Business. Havia cerca de seis meses para entender os requisitos, estruturar a solução e acompanhar o desenvolvimento até a entrega final. Além disso, por se tratar da minha primeira experiência formal como Product Owner, o projeto também exigiu uma curva importante de aprendizado em produto, operação e integração com parceiro externo.",
     tags: [
       "Backlog",
       "Integração",
@@ -30,24 +24,19 @@ window.portfolioProjects = [
   },
   {
     id: "integracao-bancaria-beneficios",
-    title: "Integração Bancária e Empresa de Benefícios",
+    title: "Automação de Vendas entre Banco e Empresa de Benefícios",
     category: "Discovery",
     image: "assets/imagens/projeto/projeto2.jpg",
     summary:
-      "Discovery para automatizar a contratação de produtos entre banco e empresa de benefícios, com foco em escala e apuração correta das vendas.",
+      "Discovery para desenhar uma integração sistêmica entre banco e empresa de benefícios, com foco em automação, escala e eficiência operacional.",
     context:
-      "O objetivo era desenhar uma integração sistêmica entre um banco e uma empresa de benefícios para viabilizar contratações sem intervenção humana, com agilidade e rastreabilidade para o parceiro comercial.",
+      "O projeto teve como objetivo conduzir um discovery para desenhar uma integração sistêmica entre um banco e uma empresa de benefícios, viabilizando a contratação de produtos de forma automatizada, sem intervenção humana. A iniciativa buscava dar mais agilidade, escala e rastreabilidade ao processo comercial, garantindo maior eficiência operacional para as empresas envolvidas.",
     impact:
-      "O discovery esclareceu processos que ainda não estavam totalmente entendidos pelo próprio negócio e permitiu desenhar uma proposta de solução mais eficiente, escalável e orientada à jornada real de vendas.",
-    role: [
-      "Facilitei o entendimento centralizado dos problemas dos usuários e do negócio.",
-      "Ajudei a definir visão, objetivos e prioridades do discovery.",
-      "Colaborei com stakeholders e validei hipóteses ao longo do processo."
-    ],
-    challenges: [
-      "Havia conflitos de interesse entre os stakeholders das empresas envolvidas.",
-      "A jornada de vendas era complexa e exigia entendimento profundo para que a proposta fosse viável."
-    ],
+      "O discovery permitiu esclarecer processos que ainda não estavam completamente entendidos pelo próprio negócio e criou uma base mais sólida para o desenho de uma solução eficiente, escalável e mais aderente à jornada real de vendas. O trabalho também contribuiu para alinhar expectativas entre as partes envolvidas e reduzir ambiguidades na definição da proposta futura.",
+    role:
+      "Atuei junto à um profissional de designer (UX/UI), como facilitadora no entendimento centralizado dos problemas dos usuários e do negócio, ajudando a estruturar a visão, os objetivos e as prioridades do discovery. Trabalhei em colaboração com stakeholders ao longo do processo, apoiando a validação de hipóteses e contribuindo para transformar um cenário ainda difuso em uma oportunidade mais clara de evolução do produto.",
+    challenges:
+      "O principal desafio estava na complexidade da jornada de vendas e na necessidade de compreender, com profundidade, um processo que envolvia diferentes etapas, regras e interesses de negócio. Além disso, havia conflitos de interesse entre stakeholders das empresas parceiras, o que exigia alinhamento constante para construir uma proposta viável, equilibrando necessidades comerciais, operacionais e sistêmicas.",
     tags: [
       "Discovery",
       "Stakeholders",
@@ -62,20 +51,15 @@ window.portfolioProjects = [
     category: "Discovery",
     image: "assets/imagens/projeto/projeto3.jpg",
     summary:
-      "Redesenho da jornada do usuário e proposta de MVP para um novo aplicativo mobile voltado ao usuário final.",
+      "Discovery para repensar a experiência mobile de uma empresa de benefícios, com foco no usuário final e em uma nova proposta de jornada e MVP.",
     context:
-      "O projeto nasceu para repensar do zero a experiência mobile de uma empresa de benefícios, saindo da lógica corporativa e olhando para a experiência de uso dos colaboradores que consomem o produto no dia a dia.",
+      "O projeto surgiu com o objetivo de repensar a experiência mobile de uma empresa de benefícios, saindo de uma lógica mais corporativa para uma visão centrada no usuário final. A proposta era redesenhar a jornada dos colaboradores que utilizavam o produto no dia a dia e estruturar uma nova base para um aplicativo mais aderente às suas necessidades reais.",
     impact:
-      "Mesmo sem a conclusão completa do discovery, avançamos significativamente no desenho da nova jornada e na proposta de MVP, criando uma base sólida para a evolução futura do produto.",
-    role: [
-      "Conduzi a centralização das dores dos usuários ao longo do discovery.",
-      "Apoiei a definição de visão e objetivos para o novo aplicativo.",
-      "Priorizei atividades e conduzi validações com stakeholders."
-    ],
-    challenges: [
-      "Foi necessário organizar muitas entrevistas, insumos e aprovações para consolidar uma nova jornada do usuário.",
-      "A reestruturação interna do cliente gerou atrasos, perda de informações e dependência de aprovações."
-    ],
+      "Mesmo sem a conclusão completa do discovery, o trabalho permitiu avançar de forma relevante no redesenho da jornada do usuário e na definição de uma proposta inicial de MVP. O projeto deixou como legado uma base mais consistente para a evolução futura do produto, com maior foco na experiência real do usuário final.",
+    role:
+      "Atuei na centralização das principais dores dos usuários ao longo do discovery, apoiando a definição da visão e dos objetivos do novo aplicativo. Também conduzi a priorização das atividades e participei das validações com stakeholders, contribuindo para transformar aprendizados dispersos em uma proposta mais estruturada de jornada e MVP.",
+    challenges:
+      "O principal desafio estava em consolidar uma nova visão de produto a partir de múltiplos insumos, entrevistas e aprovações, em um contexto que exigia alinhamento constante entre diferentes stakeholders. Além disso, a reestruturação interna do cliente impactou o andamento do discovery, gerando atrasos, perda de informações e maior dependência de validações ao longo do processo.",
     tags: [
       "MVP",
       "Discovery",
@@ -86,24 +70,19 @@ window.portfolioProjects = [
   },
   {
     id: "plataforma-relacionamento",
-    title: "Plataforma de Relacionamento Político e Social",
+    title: "Plataforma Web de Relacionamento Político e Social",
     category: "Delivery",
     image: "assets/imagens/projeto/projeto4.jpg",
     summary:
-      "Plataforma para centralizar informações críticas e apoiar decisões rápidas em uma área estratégica de relacionamento político e social.",
+      "Plataforma web para centralizar dados, insights e interações em uma área estratégica, ampliando visibilidade e apoiando decisões mais consistentes.",
     context:
-      "Uma grande empresa precisava consolidar dados, insights e interações em uma plataforma única para a área de relacionamento político e social, aumentando visibilidade e agilidade de decisão.",
+      "O projeto surgiu da necessidade de centralizar dados, insights e interações em uma plataforma única para uma área estratégica de relacionamento político e social. A proposta era ampliar a visibilidade sobre informações críticas e apoiar decisões mais rápidas, consistentes e bem fundamentadas.",
     impact:
-      "O produto entrou em produção, passou a ser usado pela área cliente e ainda foi apresentado em um evento internacional, reforçando o valor estratégico da solução.",
-    role: [
-      "Defini visão e objetivos do produto junto ao cliente.",
-      "Gerenciei backlog, histórias de usuário e priorização.",
-      "Planejei releases e acompanhei o feedback dos usuários para melhoria contínua."
-    ],
-    challenges: [
-      "O prazo era apertado porque o produto seria apresentado no Vale do Silício, na Califórnia.",
-      "A integração de múltiplas fontes de dados exigiu coordenação intensa e atenção à confiabilidade das informações."
-    ],
+      "A solução foi colocada em produção e passou a ser utilizada pela área cliente como apoio à gestão de informações estratégicas. Além disso, o produto foi apresentado em um evento internacional, reforçando sua relevância e o valor gerado para o negócio.",
+    role:
+      "Atuei na definição da visão e dos objetivos do produto junto ao cliente, gerenciei backlog, histórias de usuário e priorização, e participei do planejamento de releases. Também acompanhei o uso da solução e os feedbacks dos usuários, apoiando a evolução contínua do produto a partir das necessidades percebidas em operação.",
+    challenges:
+      "O principal desafio estava no prazo reduzido, já que o produto seria apresentado em um evento no Vale do Silício, na Califórnia. Além disso, a consolidação de múltiplas fontes de dados exigia forte coordenação entre frentes distintas e atenção constante à confiabilidade das informações que seriam disponibilizadas aos usuários.",
     tags: [
       "Delivery",
       "Backlog",
@@ -118,20 +97,15 @@ window.portfolioProjects = [
     category: "Delivery",
     image: "assets/imagens/projeto/projeto5.jpg",
     summary:
-      "Aplicativo mobile offline first para sustentar operações logísticas em campo, mesmo sem conexão com a internet.",
+      "Aplicativo mobile offline first para sustentar operações logísticas em campo com mais estabilidade, resiliência e aderência à realidade operacional.",
     context:
-      "O sistema anterior dependia de navegador e conexão constante, o que interrompia processos logísticos críticos. A nova solução precisava garantir continuidade operacional no fluxo de pátio.",
+      "O projeto surgiu da necessidade de substituir uma solução que dependia de navegador e conexão constante com a internet, o que comprometia a continuidade de processos logísticos críticos em campo. A proposta foi desenvolver um aplicativo mobile com abordagem offline first, capaz de sustentar a operação mesmo em cenários de instabilidade de conexão e maior exigência operacional no fluxo de pátio.",
     impact:
-      "Entregamos o produto em 6 meses, com treinamento e suporte pós-implantação, garantindo operação mais estável e aderente à realidade do usuário em campo.",
-    role: [
-      "Atuei na visão do produto e no alinhamento com o cliente.",
-      "Gerenciei backlog, histórias de usuário e sprints.",
-      "Acompanhei o time de desenvolvimento e a evolução da solução."
-    ],
-    challenges: [
-      "O prazo de entrega era curto para um escopo com alto impacto operacional.",
-      "Foi necessário entender profundamente a rotina do fluxo logístico para desenhar uma jornada útil de verdade."
-    ],
+      "A solução foi entregue em seis meses, com treinamento e suporte pós-implantação, permitindo uma operação mais estável, resiliente e aderente à realidade dos usuários em campo. O novo aplicativo reduziu a dependência de conexão contínua e trouxe mais segurança para a execução de processos logísticos críticos.",
+    role:
+      "Atuei na definição da visão do produto e no alinhamento com o cliente, além de gerenciar backlog, histórias de usuário e sprints ao longo do desenvolvimento. Também acompanhei de perto a evolução da solução junto ao time, garantindo alinhamento entre necessidade operacional, escopo priorizado e entrega do produto.",
+    challenges:
+      "O principal desafio estava em entregar uma solução de alto impacto operacional em um prazo curto, sem perder aderência à realidade dos usuários. Para isso, foi necessário compreender em profundidade a rotina logística em campo, incluindo visitas presenciais, entrevistas com os profissionais envolvidos e análise do contexto real de uso, para que a jornada proposta fosse de fato útil, prática e compatível com a operação.",
     tags: [
       "Offline first",
       "Mobile",
@@ -146,20 +120,15 @@ window.portfolioProjects = [
     category: "Delivery",
     image: "assets/imagens/projeto/projeto6.jpg",
     summary:
-      "Aplicativo offline para recepção de convidados em eventos sociais, desenvolvido dentro de um programa de estágio com múltiplos times.",
+      "Aplicativo offline para apoiar a recepção de convidados em grandes eventos sociais, com foco em organização, agilidade e suporte operacional em campo.",
     context:
-      "A ONG Amigos do Bem precisava melhorar a recepção de convidados em grandes eventos. A solução deveria apoiar check-in, identificação e orientação no espaço físico, mesmo sem internet.",
+      "O projeto surgiu da necessidade de apoiar a recepção de convidados em grandes eventos sociais, garantindo mais agilidade, organização e suporte operacional durante o check-in e a circulação no espaço físico. A solução precisava funcionar offline para assegurar continuidade da operação mesmo em ambientes com limitação de conexão.",
     impact:
-      "Foram entregues três versões do produto e a melhor solução foi selecionada para doação à ONG, combinando critérios técnicos, performance e usabilidade.",
-    role: [
-      "Defini visão e objetivos junto aos stakeholders.",
-      "Gerenciei backlog, histórias de usuário e alinhamento com as equipes.",
-      "Coordenei releases e acompanhei a evolução do trabalho dos times."
-    ],
-    challenges: [
-      "Havia três equipes trabalhando simultaneamente com os mesmos requisitos de negócio.",
-      "Além da entrega, foi necessário acompanhar individualmente 15 participantes e garantir o cumprimento do prazo."
-    ],
+      "Foram desenvolvidas três versões da solução, e a proposta considerada mais aderente foi selecionada para doação à ONG, com base em critérios técnicos, desempenho e usabilidade. O projeto contribuiu para estruturar uma solução mais adequada à operação dos eventos e com foco real na experiência dos usuários em campo.",
+    role:
+      "Atuei na definição da visão e dos objetivos do produto junto aos stakeholders, além de gerenciar backlog, histórias de usuário e alinhamentos com as equipes ao longo do processo. Também coordenei releases e acompanhei a evolução dos times, buscando manter consistência entre os requisitos de negócio, a execução das squads e a qualidade das entregas.",
+    challenges:
+      "O principal desafio estava em conduzir o desenvolvimento em um contexto com alta coordenação entre múltiplos times, já que três equipes trabalhavam simultaneamente a partir dos mesmos requisitos de negócio. Além da entrega do produto, também foi necessário acompanhar individualmente os participantes envolvidos no programa, garantindo alinhamento, evolução do trabalho e cumprimento do prazo.",
     tags: [
       "ONG",
       "Offline",
@@ -170,28 +139,23 @@ window.portfolioProjects = [
   },
   {
     id: "visita-medica",
-    title: "Aplicativo de Visitação Médica e Farmacêutica",
+    title: "Plataforma Digital para Operação de Força de Vendas",
     category: "Produto em evolução",
     image: "assets/imagens/projeto/projeto7.jpg",
     summary:
-      "Aplicativo mobile com backoffice para apoiar a jornada de propagandistas e reduzir custos com licenças de mercado.",
+      "Plataforma com aplicativo mobile e backoffice web para apoiar a operação de força de vendas, escalar a solução interna e reduzir dependência de aplicações de mercado.",
     context:
-      "O projeto envolvia um aplicativo para uso em campo e uma aplicação web administrativa para gestão e importação de dados, com múltiplas unidades de negócio e necessidades distintas.",
+      "Plataforma composta por aplicativo mobile e backoffice web, desenvolvida para apoiar a operação de equipes de campo em visitas médicas e farmacêuticas. O aplicativo era utilizado pelos representantes para planejar roteiros, registrar visitas, consultar painéis de clientes e apoiar rotinas operacionais. Já o backoffice atendia gestores e áreas de negócio na administração de dados, painéis, roteiros e processos internos.",
     impact:
-      "A solução já atende usuários em campo e permitiu a descontinuação de contratos de mercado, com economia de milhões de reais por ano para uma unidade de negócio.",
-    role: [
-      "Defini visão e objetivos do produto com o cliente.",
-      "Gerenciei backlog, alinhamento com stakeholders e planejamento de entregas.",
-      "Acompanhei desenvolvimento, sustentação e expansão para novos usuários."
-    ],
-    challenges: [
-      "A priorização precisava equilibrar interesses de diferentes unidades de negócio do mesmo grupo.",
-      "Também foi necessário estruturar treinamento, liberação de acesso e adaptação de novos usuários em um rollout faseado."
-    ],
+      "A solução foi consolidada e expandida para novas frentes de operação, passando a atender milhares de usuários de forma efetiva. Além de sustentar uma operação estratégica para o negócio, o produto contribuiu para a substituição de contratos externos, gerando economia relevante e ganhos operacionais.",
+    role:
+      "Atuei como Product Owner na definição da visão e dos objetivos do produto, gestão e priorização de backlog, construção de roadmap, detalhamento de user stories, refinamentos de negócio e técnico, planejamento de entregas, acompanhamento do desenvolvimento e sustentação, além do alinhamento com stakeholders, condução de cerimônias e comunicação executiva.",
+    challenges:
+      "O principal desafio era desenvolver e evoluir uma solução interna capaz de substituir aplicações de mercado utilizadas para a operação de visitação médica e farmacêutica, que geravam alto custo recorrente para o cliente. Além da redução de custos, a construção de um produto próprio permitiria maior flexibilidade para customizações e evolução contínua, de acordo com as necessidades reais dos usuários e da empresa. Esse cenário exigia equilibrar demandas de diferentes unidades de negócio e stakeholders com necessidades distintas. Após o primeiro rollout em produção para uma BU, e com a validação de que a solução estava apta para suportar a operação de forma consistente, iniciou-se uma expansão progressiva para novas unidades, até atender quatro BUs.",
     tags: [
       "Mobile",
       "Backoffice",
-      "Sustentação",
+      "Força de vendas",
       "Rollout",
       "Redução de custos"
     ]

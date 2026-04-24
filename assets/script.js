@@ -2,7 +2,6 @@ const projects = window.portfolioProjects || [];
 
 const grid = document.getElementById("project-grid");
 const modal = document.getElementById("project-modal");
-const modalImage = document.getElementById("modal-image");
 const modalCategory = document.getElementById("modal-category");
 const modalTitle = document.getElementById("modal-title");
 const modalSummary = document.getElementById("modal-summary");
@@ -22,15 +21,28 @@ function createTag(text) {
 }
 
 function createList(items) {
-  const fragment = document.createDocumentFragment();
+  const list = document.createElement("ul");
 
   items.forEach((item) => {
     const li = document.createElement("li");
     li.textContent = item;
-    fragment.appendChild(li);
+    list.appendChild(li);
   });
 
-  return fragment;
+  return list;
+}
+
+function renderDetailContent(container, content) {
+  container.innerHTML = "";
+
+  if (Array.isArray(content)) {
+    container.appendChild(createList(content));
+    return;
+  }
+
+  const paragraph = document.createElement("p");
+  paragraph.textContent = content;
+  container.appendChild(paragraph);
 }
 
 function openModal(projectId) {
@@ -39,20 +51,16 @@ function openModal(projectId) {
     return;
   }
 
-  modalImage.src = project.image;
-  modalImage.alt = project.title;
   modalCategory.textContent = project.category;
   modalTitle.textContent = project.title;
   modalSummary.textContent = project.summary;
   modalContext.textContent = project.context;
   modalResults.textContent = project.impact;
 
-  modalRole.innerHTML = "";
-  modalChallenges.innerHTML = "";
   modalTags.innerHTML = "";
 
-  modalRole.appendChild(createList(project.role));
-  modalChallenges.appendChild(createList(project.challenges));
+  renderDetailContent(modalRole, project.role);
+  renderDetailContent(modalChallenges, project.challenges);
   project.tags.forEach((tag) => modalTags.appendChild(createTag(tag)));
 
   modal.classList.add("is-open");
@@ -91,16 +99,6 @@ function renderProjects() {
       <div class="project-content">
         <h3>${project.title}</h3>
         <p class="project-summary">${project.summary}</p>
-        <div class="project-meta">
-          <div>
-            <span>Contexto</span>
-            <p>${project.context}</p>
-          </div>
-          <div>
-            <span>Impacto</span>
-            <p>${project.impact}</p>
-          </div>
-        </div>
         <div class="project-footer">
           <div class="tag-list project-tag-row"></div>
           <button class="project-link" type="button" data-project-id="${project.id}">Ver detalhes</button>
