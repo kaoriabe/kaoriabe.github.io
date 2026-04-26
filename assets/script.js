@@ -81,7 +81,7 @@ function renderProjects() {
 
   const fragment = document.createDocumentFragment();
 
-  projects.forEach((project) => {
+  [...projects].reverse().forEach((project) => {
     const article = document.createElement("article");
     article.className = "project-card";
 

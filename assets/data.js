@@ -159,5 +159,51 @@ window.portfolioProjects = [
       "Rollout",
       "Redução de custos"
     ]
+  },
+  {
+    id: "migracao-bpm-seguros-transporte",
+    title: "Migração de BPM para Operação de Seguros de Transporte",
+    category: "Migração e automação",
+    image: "",
+    summary:
+      "Migração do backoffice operacional de ServiceNow para um BPM nativo, com foco em redução de custos, automação e maior sustentabilidade arquitetural.",
+    context:
+      "O projeto teve como objetivo migrar a solução de backoffice operacional da plataforma ServiceNow para um BPM nativo, com foco em reduzir custos operacionais e de licenciamento, ampliar a automação de processos e aumentar a flexibilidade, o controle e o desempenho da operação. A iniciativa também buscava diminuir a dependência de customizações e tornar a arquitetura mais sustentável e aderente ao futuro da empresa. O escopo envolvia fluxos críticos da operação de seguros de transporte, como cotação, implantação, faturamento, renovação e cobrança, além de integrações com diferentes plataformas do ecossistema.",
+    impact:
+      "O trabalho estruturou uma base consistente para a migração dos processos operacionais para a nova plataforma, com maior clareza sobre fluxos, requisitos, integrações e oportunidades de automação. Além de apoiar a transição tecnológica, o projeto contribuiu para organizar o conhecimento operacional da área e sustentar uma evolução mais controlada, aderente e alinhada aos objetivos estratégicos do negócio.",
+    role:
+      "Atuei no entendimento de ponta a ponta dos fluxos operacionais, conduzindo o levantamento de requisitos funcionais e sistêmicos, incluindo mapeamento de etapas, regras e campos de entrada de dados. Também fui responsável por acompanhar a implementação na nova plataforma, conduzindo cerimônias, alinhamentos com o time de desenvolvimento e com a área de negócio, além de elaborar materiais de apoio, treinamentos para usuários das diferentes áreas e reports para stakeholders de diversos níveis.",
+    challenges:
+      "O principal desafio estava em compreender de ponta a ponta uma operação complexa e já consolidada, garantindo que a migração para a nova plataforma mantivesse o mesmo nível de eficiência ou superior sem alterar a lógica essencial dos processos em produção. Isso exigiu proximidade constante com a área de negócio para levantamento detalhado de requisitos, entendimento sistêmico do cenário atual e mapeamento completo do processo AS IS. Ao mesmo tempo, era necessário identificar oportunidades de otimização e automação sem comprometer a aderência operacional. A complexidade aumentava pelo envolvimento de múltiplas frentes e integrações com sistemas como Quiver, Salesforce e o próprio backoffice operacional.",
+    tags: [
+      "BPM",
+      "ServiceNow",
+      "Seguros",
+      "Automação",
+      "Migração"
+    ]
+  },
+  {
+    id: "repositorio-digital-bulas",
+    title: "Repositório Digital de Bulas e Conteúdo Institucional",
+    category: "Integração e conteúdo digital",
+    image: "",
+    summary:
+      "Evolução de backoffice e integração com WordPress para dar mais autonomia à área de negócio na gestão de bulas, conteúdos regulatórios e páginas institucionais.",
+    context:
+      "O projeto teve como objetivo evoluir a gestão digital de bulas, informações regulatórias e conteúdos institucionais de uma empresa farmacêutica, aumentando a autonomia da área de negócio e reduzindo a dependência de terceiros para manutenção e publicação. Até então, o backoffice já permitia o cadastro e aprovação de bulas, gerando uma nova página com template atualizado, mas ainda era necessário acionar uma agência externa para fazer o vínculo desse novo conteúdo à página institucional. A proposta da nova fase foi integrar o backoffice ao site institucional em WordPress, permitindo que a publicação fosse refletida automaticamente no ambiente final, além de ampliar a gestão de categorias, catálogo de produtos e páginas institucionais diretamente pelo time interno.",
+    impact:
+      "O projeto ampliou a autonomia da área de negócio na gestão de bulas e conteúdos institucionais, reduzindo a dependência de terceiros para atualizações e publicações no site. Com a integração entre backoffice e WordPress, a publicação dos conteúdos passou a ser mais fluida e centralizada, enquanto novas funcionalidades de gestão de categorias, catálogo e páginas institucionais fortaleceram a governança e a agilidade na manutenção das informações exibidas ao público.",
+    role:
+      "Atuei na condução do produto junto ao cliente, transformando necessidades de negócio em requisitos claros para evolução do backoffice e da integração com o site institucional. Trabalhei na estruturação funcional das iniciativas, no detalhamento das regras e fluxos necessários para publicação automatizada, na organização das entregas e no alinhamento entre áreas envolvidas. Também participei da definição das novas funcionalidades de gestão de categorias, catálogo de produtos e páginas institucionais, buscando garantir que o produto final atendesse às necessidades operacionais e regulatórias do negócio com mais autonomia e eficiência.",
+    challenges:
+      "O principal desafio estava em eliminar a dependência operacional de uma agência externa sem comprometer a consistência regulatória e a experiência final do usuário. Isso exigiu estruturar uma integração entre o backoffice e o site institucional, garantindo que aprovações realizadas no sistema interno fossem automaticamente refletidas no front-end público. Além disso, o projeto envolvia a criação de novas capacidades no backoffice, como cadastro e ordenação de categorias, vínculo entre categorias e produtos, manutenção de páginas institucionais e construção de uma nova página de catálogo com busca e filtros dinâmicos. Tudo isso precisava ser desenvolvido com alta aderência às necessidades da área de negócio, que dependia de agilidade para atualizar conteúdos sensíveis e regulatórios.",
+    tags: [
+      "WordPress",
+      "Backoffice",
+      "Conteúdo regulatório",
+      "Automação",
+      "Catálogo"
+    ]
   }
 ];
